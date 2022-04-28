@@ -1,0 +1,76 @@
+__Lrdata 29 FFFFFFDA DATA
+__Hrbss 29 0 DATA
+__Lrbss 20 0 DATA
+strx_xcopy 79 0 CODE
+__Birdata 3 FFFFFFDA DATA
+__Hirdata 29 FFFFFFDA DATA
+__Lirdata 29 FFFFFFDA DATA
+powerup CE 0 CODE
+__Htext 29 0
+__Ltext 29 0
+?a_tput 28 0 DATA
+strx_copy 8F 0 CODE
+__Hcode 29 0
+__Lcode 29 0
+__Hdata 105 0 CODE
+__Hconst 100 0 CODE
+__Ldata 100 0 CODE
+__Lconst 100 0 CODE
+__Bbss 29 0 XDATA
+__Hbss 29 0 XDATA
+__Hstrings 100 0 CODE
+__Lbss 29 0 XDATA
+__Lstrings 100 0 CODE
+str_xcopy 79 0 CODE
+__S0 105 0
+start1 BA 0 CODE
+__Hnvram 29 0 XDATA
+small_model 1 0
+__Lnvram 29 0 XDATA
+__Hheap 29 0 XDATA
+__Lheap 29 0 XDATA
+_main 17 0 CODE
+str_copy 8F 0 CODE
+?a_main 20 0 DATA
+_exit CB 0 CODE
+start 0 0 CODE
+intlevel0 0 0
+_tput 3 0 CODE
+strx_load 8F 0 CODE
+__Brbit 20 20 BITSEG
+str_load 8F 0 CODE
+__Hrbit 0 20 BITSEG
+intlevel1 0 0
+__Hvectors 3 0 CODE
+__Lrbit 0 20 BITSEG
+__Lvectors 0 0 CODE
+__Bidata 29 0 DATA
+__Hidata 29 0 DATA
+__Lidata 29 0 DATA
+stack_internal 1 0
+__Brdata 3 FFFFFFDA DATA
+__Hrdata 29 FFFFFFDA DATA
+%segments
+vectors 0 D0 CODE
+rbit 0 8 BITSEG
+data 100 104 CODE
+%locals
+C:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\main_0.obj
+C:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\main.c
+4 3 0 CODE
+5 5 0 CODE
+6 7 0 CODE
+7 12 0 CODE
+8 14 0 CODE
+10 17 0 CODE
+14 19 0 CODE
+16 28 0 CODE
+17 2B 0 CODE
+18 2E 0 CODE
+19 30 0 CODE
+20 33 0 CODE
+22 4A 0 CODE
+23 51 0 CODE
+24 54 0 CODE
+20 5E 0 CODE
+26 76 0 CODE

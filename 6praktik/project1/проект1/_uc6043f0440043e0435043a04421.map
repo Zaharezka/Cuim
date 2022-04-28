@@ -1,0 +1,97 @@
+HI-TECH Software 8051-C Compiler V9.60
+
+Linker command line:
+
+--edf=C:\PROGRA~2\HI-TEC~1\HC51\9.60\dat\en_msgs.txt \
+  -h+C:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\_uc6043f0440043e0435043a04421.sym \
+  -z -Q8051AH -ol.obj \
+  -MC:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\_uc6043f0440043e0435043a04421.map \
+  -E1 -ver=8051-C#V9.60 -ACODE=00h-0FFFh -pvectors=00h \
+  -prbit=0/20h,rbss,rdata/CODE,irdata/CODE,idata/rbss -pbss=XDATA/idata \
+  -pdata=CODE+100h -pconst=CODE+100h -pstrings=CODE+100h -pnvram=bss,heap \
+  C:\Users\79041\AppData\Local\Temp\s92s.obj \
+  C:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\main_0.obj \
+  C:\PROGRA~2\HI-TEC~1\HC51\9.60\lib\51--nsc.lib 
+
+Object code version is 3.8
+
+Machine type is 8051AH
+
+Call graph:
+
+*start1 size 0,0 offset 0
+*    _main size 0,8 offset 0
+*        _tput size 0,1 offset 8
+
+		Name          Link     Load   Length Selector Space Scale
+C:\Users\79041\AppData\Local\Temp\s92s.obj
+		vectors          0        0        3       0     0
+		text            BA       BA       14       0     0
+C:\Users\79041\DOCUME~1\NATION~1\CIRCUI~2.0\MCUWOR~1\project1\17831~1\main_0.obj
+		data           100      100        5     100     0
+		text             3        3       76       0     0
+
+C:\PROGRA~2\HI-TEC~1\HC51\9.60\lib\51--nsc.lib
+powerup.obj     text            CE       CE        3       0     0
+str_cops.obj    text            79       79       41       0     0
+
+COMMON          rbss            20       20        9      20     1
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		vectors          0        0        3
+		data           100      100        5
+		text            BA       BA       14
+		text             3        3       76
+		text            CE       CE        3
+		text            79       79       41
+
+	CLASS	DATA     
+		rbss            20       20        9
+
+	CLASS	XDATA    
+
+	CLASS	BITSEG   
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		vectors         000000	0000D1	0000D1	       0       0  CODE    
+		rbit            000020	000009	000029	      20       1  BITSEG  
+		data            000100	000005	000105	     100       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+	CODE             0D1-0FF
+	                 105-FFF
+
+                                  Symbol Table
+
+?a_main        rbss    020  ?a_tput        rbss    028
+__Bbss         bss     029  __Bidata       idata   029
+__Birdata      irdata  003  __Brbit        rbit    020
+__Brdata       rdata   003  __Hbss         bss     029
+__Hcode        code    029  __Hconst       const   100
+__Hdata        data    105  __Hheap        heap    029
+__Hidata       idata   029  __Hirdata      irdata  029
+__Hnvram       nvram   029  __Hrbit        rbit    000
+__Hrbss        rbss    029  __Hrdata       rdata   029
+__Hstrings     strings 100  __Htext        text    029
+__Hvectors     vectors 003  __Lbss         bss     029
+__Lcode        code    029  __Lconst       const   100
+__Ldata        data    100  __Lheap        heap    029
+__Lidata       idata   029  __Lirdata      irdata  029
+__Lnvram       nvram   029  __Lrbit        rbit    000
+__Lrbss        rbss    020  __Lrdata       rdata   029
+__Lstrings     strings 100  __Ltext        text    029
+__Lvectors     vectors 000  __S0           (abs)   105
+_exit          text    0CB  _main          text    017
+_tput          text    003  intlevel0      (abs)   000
+intlevel1      (abs)   000  powerup        text    0CE
+small_model    (abs)   001  stack_internal (abs)   001
+start          vectors 000  start1         text    0BA
+str_copy       text    08F  str_load       text    08F
+str_xcopy      text    079  strx_copy      text    08F
+strx_load      text    08F  strx_xcopy     text    079
